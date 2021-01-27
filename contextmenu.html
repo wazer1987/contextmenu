@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body,html{
+            height: 100%;
+            background: lightblue;
+        }
+        #contextmenu{
+            position: fixed;
+            top:0;
+            left: 0;
+            width: 80px;
+            border: 1px solid black;
+        }
+        #contextmenu ul {
+            list-style: none;
+        }
+        #contextmenu ul li{
+            height: 30px;
+            line-height: 30px;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+        #contextmenu ul li:hover{
+            background: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.这里我们先把菜单画出来 方便我们观察 -->
+    <!-- <div id="contextmenu">
+        <ul>
+            <li>菜单一</li>
+            <li>菜单二</li>
+            <li>菜单三</li>
+        </ul>
+    </div> -->
+    <script src="contextmenu.js"></script>
+</body>
+</html>
